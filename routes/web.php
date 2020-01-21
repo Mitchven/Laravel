@@ -11,16 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('register');
-});
 
-Route::get('/login', function () {
-    return view('login');
-});
-
-Route::get('/register','RegistrationController@register');
-
-
-
+Route::get('/welcome/{id?}','Human_Controller@welcome')->name('welcome');
 

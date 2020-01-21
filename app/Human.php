@@ -10,9 +10,12 @@ class Human extends Model
         'first_name', 
         'middle_name',
         'last_name',
-        'email'
+        'email',
+        'age',
+        'gender',
+        'address'
     ];
-    protected $hidden = [
-        'password'
-    ];
+    // protected $hidden = [
+    //     'password'
+    // ];
 }

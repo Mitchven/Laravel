@@ -19,6 +19,9 @@ class CreateTableHuman extends Migration
             $table->string('middle_name',255);
             $table->string('last_name', 255);
             $table->string('email',255)->nullable();
+            $table->integer('age');
+            $table->integer('gender');
+            $table->string('address',255);
             $table->timestamps();
         });
     }

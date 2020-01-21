@@ -1,0 +1,11 @@
+body{
+    background:url('design.jpg');
+    font:60px comic;
+    text-align: center;
+}
+th{
+    font:30px comic;
+}
+td{
+    font:25px comic;
+}
